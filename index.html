@@ -1,0 +1,295 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Maurya Ayush - Portfolio
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   :root {
+    --bg-color: #f7fafc;
+    --text-color: #1a202c;
+    --header-bg-color: #ffffff;
+    --header-text-color: #1a202c;
+    --card-bg-color: #ffffff;
+    --card-text-color: #1a202c;
+    --input-bg-color: #ffffff;
+    --input-text-color: #1a202c;
+   }
+
+   [data-theme="dark"] {
+    --bg-color: #1a202c;
+    --text-color: #f7fafc;
+    --header-bg-color: #2d3748;
+    --header-text-color: #f7fafc;
+    --card-bg-color: #2d3748;
+    --card-text-color: #f7fafc;
+    --input-bg-color: #2d3748;
+    --input-text-color: #f7fafc;
+   }
+
+   .transition-all {
+    transition: all 0.3s ease-in-out;
+   }
+  </style>
+ </head>
+ <body class="font-roboto bg-gray-100 text-gray-900 transition-all" id="body" style="background-color: var(--bg-color); color: var(--text-color);">
+  <header class="bg-white shadow transition-all" style="background-color: var(--header-bg-color); color: var(--header-text-color);">
+   <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+    <div class="text-3xl font-bold">
+     Maurya Ayush
+    </div>
+    <nav class="space-x-4">
+     <a class="hover:text-gray-600 transition-all" href="#about" style="color: var(--header-text-color);">
+      About
+     </a>
+     <a class="hover:text-gray-600 transition-all" href="#skills" style="color: var(--header-text-color);">
+      Skills
+     </a>
+     <a class="hover:text-gray-600 transition-all" href="#projects" style="color: var(--header-text-color);">
+      Projects
+     </a>
+     <a class="hover:text-gray-600 transition-all" href="#contact" style="color: var(--header-text-color);">
+      Contact
+     </a>
+    </nav>
+    <button class="ml-4 p-2 bg-gray-200 rounded-full focus:outline-none transition-all" id="theme-toggle">
+     <i class="fas fa-sun text-yellow-500" id="theme-icon">
+     </i>
+    </button>
+   </div>
+  </header>
+  <main class="container mx-auto px-6 py-12">
+   <section class="my-12" id="about">
+    <div class="flex flex-col md:flex-row items-center">
+     <img alt="Portrait of Maurya Ayush, a web developer, smiling and looking at the camera" class="w-48 h-48 rounded-full mx-auto md:mx-0 md:mr-6 transition-all" height="300" src="C:\Users\Public\Videos\Desktop\Portfolio\HKR.png" width="300"/>
+     <div class="mt-6 md:mt-0">
+      <h2 class="text-4xl font-bold transition-all">
+       About Me
+      </h2>
+      <p class="mt-4 text-lg transition-all">
+       Hello! I'm Maurya Ayush, a passionate web developer with expertise in HTML, CSS, JavaScript, React, Express, MongoDB, and Node.js. I love creating dynamic and responsive web applications that provide excellent user experiences.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="my-12" id="skills">
+    <h2 class="text-4xl font-bold text-center transition-all">
+     Skills
+    </h2>
+    <div class="flex flex-wrap justify-center mt-6">
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-40 text-center transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <i class="fab fa-html5 text-4xl text-orange-600">
+      </i>
+      <p class="mt-2">
+       HTML
+      </p>
+     </div>
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-40 text-center transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <i class="fab fa-css3-alt text-4xl text-blue-600">
+      </i>
+      <p class="mt-2">
+       CSS
+      </p>
+     </div>
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-40 text-center transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <i class="fab fa-js text-4xl text-yellow-500">
+      </i>
+      <p class="mt-2">
+       JavaScript
+      </p>
+     </div>
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-40 text-center transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <i class="fab fa-react text-4xl text-blue-500">
+      </i>
+      <p class="mt-2">
+       React
+      </p>
+     </div>
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-40 text-center transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <i class="fab fa-node text-4xl text-green-500">
+      </i>
+      <p class="mt-2">
+       Node.js
+      </p>
+     </div>
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-40 text-center transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <i class="fas fa-database text-4xl text-gray-700">
+      </i>
+      <p class="mt-2">
+       MongoDB
+      </p>
+     </div>
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-40 text-center transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <i class="fas fa-server text-4xl text-gray-800">
+      </i>
+      <p class="mt-2">
+       Express
+      </p>
+     </div>
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-40 text-center transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <i class="fas fa-bolt text-4xl text-yellow-500">
+      </i>
+      <p class="mt-2">
+       Socket.io
+      </p>
+     </div>
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-40 text-center transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <img alt="Python logo" class="mx-auto" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40"/>
+      <p class="mt-2">
+       Python
+      </p>
+     </div>
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-40 text-center transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <i class="fas fa-code text-4xl text-gray-800">
+      </i>
+      <p class="mt-2">
+       EJS
+      </p>
+     </div>
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-40 text-center transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <i class="fab fa-js text-4xl text-yellow-500">
+      </i>
+      <p class="mt-2">
+       JSX
+      </p>
+     </div>
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-40 text-center transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <img alt="Tailwind CSS logo" class="mx-auto" height="40" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" width="40"/>
+      <p class="mt-2">
+       Tailwind
+      </p>
+     </div>
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-40 text-center transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <i class="fab fa-bootstrap text-4xl text-purple-600">
+      </i>
+      <p class="mt-2">
+       Bootstrap
+      </p>
+     </div>
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-40 text-center transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <i class="fab fa-sass text-4xl text-pink-600">
+      </i>
+      <p class="mt-2">
+       SCSS
+      </p>
+     </div>
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-40 text-center transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <i class="fab fa-git-alt text-4xl text-red-600">
+      </i>
+      <p class="mt-2">
+       Git
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="my-12" id="projects">
+    <h2 class="text-4xl font-bold text-center transition-all">
+     Projects
+    </h2>
+    <div class="flex flex-wrap justify-center mt-6">
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-80 transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <img alt="Screenshot of Project 1, a web application with a modern user interface" class="rounded-t-lg transition-all" height="180" src="https://storage.googleapis.com/a1aa/image/N6oyQpydTOJBPhJXQZWR8CTpNee4M4xjlKbQnM0MF90kEx4TA.jpg" width="320"/>
+      <h3 class="text-2xl font-bold mt-4 transition-all">
+       Project 1
+      </h3>
+      <p class="mt-2 transition-all">
+       Description of Project 1. This project showcases my skills in HTML, CSS, and JavaScript.
+      </p>
+     </div>
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-80 transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <img alt="Screenshot of Project 2, a web application with a modern user interface" class="rounded-t-lg transition-all" height="180" src="https://storage.googleapis.com/a1aa/image/aoPDI21eEY2egE7CbCadCiNCpeu5f0e78uGm87eStFZCKRMeJA.jpg" width="320"/>
+      <h3 class="text-2xl font-bold mt-4 transition-all">
+       Project 2
+      </h3>
+      <p class="mt-2 transition-all">
+       Description of Project 2. This project showcases my skills in React and Node.js.
+      </p>
+     </div>
+     <div class="m-4 p-4 bg-white shadow rounded-lg w-80 transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <img alt="Screenshot of Project 3, a web application with a modern user interface" class="rounded-t-lg transition-all" height="180" src="https://storage.googleapis.com/a1aa/image/aqku0Yz7OIrYLBuL7ePwZJu9pgySthush2rB0MiVS6GTiY8JA.jpg" width="320"/>
+      <h3 class="text-2xl font-bold mt-4 transition-all">
+       Project 3
+      </h3>
+      <p class="mt-2 transition-all">
+       Description of Project 3. This project showcases my skills in MongoDB and Express.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="my-12" id="contact">
+    <h2 class="text-4xl font-bold text-center transition-all">
+     Contact
+    </h2>
+    <div class="flex justify-center mt-6">
+     <form class="w-full max-w-lg bg-white shadow rounded-lg p-6 transition-all" style="background-color: var(--card-bg-color); color: var(--card-text-color);">
+      <div class="mb-4">
+       <label class="block transition-all" for="name">
+        Name
+       </label>
+       <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all" id="name" style="background-color: var(--input-bg-color); color: var(--input-text-color);" type="text"/>
+      </div>
+      <div class="mb-4">
+       <label class="block transition-all" for="email">
+        Email
+       </label>
+       <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all" id="email" style="background-color: var(--input-bg-color); color: var(--input-text-color);" type="email"/>
+      </div>
+      <div class="mb-4">
+       <label class="block transition-all" for="message">
+        Message
+       </label>
+       <textarea class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all" id="message" rows="4" style="background-color: var(--input-bg-color); color: var(--input-text-color);">
+       </textarea>
+      </div>
+      <button class="w-full bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-all" type="submit">
+       Send Message
+      </button>
+     </form>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-white shadow mt-12 transition-all" style="background-color: var(--header-bg-color); color: var(--header-text-color);">
+   <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+    <p class="transition-all">
+     © 2023 Maurya Ayush. All rights reserved.
+    </p>
+    <div class="space-x-4">
+     <a class="hover:text-gray-600 transition-all" href="https://github.com/White-Darkness" style="color: var(--header-text-color);">
+      <i class="fab fa-github">
+      </i>
+     </a>
+     <a class="hover:text-gray-600 transition-all" href="https://linkedin.com" style="color: var(--header-text-color);">
+      <i class="fab fa-linkedin">
+      </i>
+     </a>
+     <a class="hover:text-gray-600 transition-all" href="https://twitter.com" style="color: var(--header-text-color);">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+    </div>
+   </div>
+  </footer>
+  <script>
+   const themeToggle = document.getElementById('theme-toggle');
+   const body = document.getElementById('body');
+   const themeIcon = document.getElementById('theme-icon');
+
+   themeToggle.addEventListener('click', () => {
+     if (body.getAttribute('data-theme') === 'dark') {
+       body.removeAttribute('data-theme');
+       themeIcon.classList.remove('fa-moon');
+       themeIcon.classList.add('fa-sun');
+     } else {
+       body.setAttribute('data-theme', 'dark');
+       themeIcon.classList.remove('fa-sun');
+       themeIcon.classList.add('fa-moon');
+     }
+   });
+  </script>
+ </body>
+</html>
